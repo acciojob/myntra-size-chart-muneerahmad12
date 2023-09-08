@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+table, tr, th,td{border:1px solid black;
+	   border-collapse : collapse; 
+				}
+table{width:100%}
+thead{text-align:left;
+	 background:brown}
+td:not(.left){
+	text-align:right;
+}
+.one{background:gray}
+.two{background:cadetblue}
